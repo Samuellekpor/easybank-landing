@@ -15,72 +15,121 @@
   </style>
 </head>
 <body>
-
-  Home
-  About
-  Contact
-  Blog
-  Careers
-
-  Request Invite
-
-
-
-  Next generation digital banking
-
-  Take your financial life online. Your Easybank account will be a one-stop-shop 
-  for spending, saving, budgeting, investing, and much more.
-
-  Request Invite
-
-
-
-  Why choose Easybank?
-
-  We leverage Open Banking to turn your bank account into your financial hub. Control 
-  your finances like never before.
-
-  Online Banking
-  Our modern web and mobile applications allow you to keep track of your finances 
-  wherever you are in the world.
-
-  Simple Budgeting
-  See exactly where your money goes each month. Receive notifications when you’re 
-  close to hitting your limits.
-
-  Fast Onboarding
-  We don’t do branches. Open your account in minutes online and start taking control 
-  of your finances right away.
-
-  Open API
-  Manage your savings, investments, pension, and much more from one account. Tracking 
-  your money has never been easier.
-
-  
-
-  Latest Articles
-
-  By Claire Robinson
-  Receive money in any currency with no fees
-  The world is getting smaller and we’re becoming more mobile. So why should you be 
-  forced to only receive money in a single …
-
-  By Wilson Hutton
-  Treat yourself without worrying about money
-  Our simple budgeting feature allows you to separate out your spending and set 
+  <header>
+    <img src="./images/logo.svg" alt="easybank-logo" class="logo">
+    <nav>
+      <ul class="navbar">
+        <li class="navlink">Home</li>
+        <li class="navlink">About</li>
+        <li class="navlink">Contact</li>
+        <li class="navlink">Blog</li>
+        <li class="navlink">Careers</li>
+      </ul>
+      <button class="request-invite">Request Invite</button>
+    </nav>
+  </header>
+  <div class="welcome-container">
+    <img src="./images/image-mockups.png" alt="mockups" class="mockup-img">
+    <h1 class="title">Next generation digital banking</h1>
+    <p class="landing-description">Take your financial life online. Your Easybank account will be a one-stop-shop 
+      for spending, saving, budgeting, investing, and much more.
+    </p>
+    <button class="request-invite">Request Invite</button>
+  </div>
+  <div class="choice-reasons">
+    <h2 class="reasons-title">Why choose Easybank?</h2>
+    <p class="choices-description">
+      We leverage Open Banking to turn your bank account into your financial hub. Control 
+      your finances like never before.
+    </p>
+    <div class="choices">
+      <div class="choice">
+        <img src="./images/icon-online.svg" alt="online-banking" class="choice-icon">
+        <h4 class="choice-title">Online Banking</h4>
+        <p class="choice-desc">Our modern web and mobile applications allow you to keep track of your finances 
+          wherever you are in the world.</p>
+      </div>
+      <div class="choice">
+        <img src="./images/icon-budgeting.svg" alt="icon-budgeting" class="choice-icon">
+        <h4 class="choice-title">Simple Budgeting</h4>
+        <p class="choice-desc">
+          See exactly where your money goes each month. Receive notifications when you’re 
+          close to hitting your limits.
+        </p>
+      </div>
+      <div class="choice">
+        <img src="./images/icon-onboarding.svg" alt="icon-onboarding" class="choice-icon">
+        <h4 class="choice-title">Fast Onboarding</h4>
+        <p class="choice-desc">We don’t do branches. Open your account in minutes online and start taking control 
+          of your finances right away.
+        </p>
+      </div>
+      <div class="choice">
+        <img src="./images/icon-api.svg" alt="icon-open-api" class="choice-icon">
+        <h4 class="choice-title">Open API</h4>
+        <p class="choice-desc">
+          Manage your savings, investments, pension, and much more from one account. Tracking 
+          your money has never been easier.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="latest-articles">
+    <h2 class="articles-title">Latest Articles</h2>
+    <div class="articles">
+      <div class="article">
+        <img src="./images/image-currency.jpg" alt="image-currency" class="article-img">
+        <span class="author">By Claire Robinson</span>
+        <h4 class="article-title">Receive money in any currency with no fees</h4>
+        <p class="article-desc">
+          The world is getting smaller and we’re becoming more mobile. So why should you be 
+          forced to only receive money in a single …
+        </p>
+      </div>
+      <div class="article">
+        <img src="./images/image-currency.jpg" alt="image-currency" class="article-img">
+        <span class="author">By Wilson Hutton</span>
+        <h4 class="article-title">Treat yourself without worrying about money</h4>
+        <p class="article-desc">
+          Our simple budgeting feature allows you to separate out your spending and set 
   realistic limits each month. That means you …
-
-  By Wilson Hutton
-  Take your Easybank card wherever you go
-  We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+        </p>
+      </div>
+      <div class="article">
+        <img src="./images/image-currency.jpg" alt="image-currency" class="article-img">
+        <span class="author">By Wilson Hutton</span>
+        <h4 class="article-title">Take your Easybank card wherever you go</h4>
+        <p class="article-desc">
+          We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
   while you’re abroad. We’ll even show you …
-
-  By Claire Robinson
-  Our invite-only Beta accounts are now live!
-  After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+        </p>
+      </div>
+      <div class="article">
+        <img src="./images/image-currency.jpg" alt="image-currency" class="article-img">
+        <span class="author">By Claire Robinson</span>
+        <h4 class="article-title">Our invite-only Beta accounts are now live!</h4>
+        <p class="article-desc">
+          After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
   It’s easy to request an invite through the site ...
-
-  
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <img src="./images/logo.svg" alt="easybank-logo" class="logo">
+    <div class="social-medias">
+      <img src="./images/icon-facebook.svg" alt="icon-facebook" class="social-icon">
+      <img src="./images/icon-youtube.svg" alt="icon-youtube" class="social-icon">
+      <img src="./images/icon-twitter.svg" alt="icon-twitter" class="social-icon">
+      <img src="./images/icon-pinterest.svg" alt="icon-pinterest" class="social-icon">
+      <img src="./images/icon-instagram.svg" alt="icon-instagram" class="social-icon">
+    </div>
+    <nav>
+      <ul class="footer-nav">
+        ul
+      </ul>
+    </nav>
+  </footer>
 
   About Us
   Contact
