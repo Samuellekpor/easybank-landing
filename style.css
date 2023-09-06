@@ -103,7 +103,7 @@ header {
   padding: 0 20px 70px;
 }
 
-.title {
+.title, .reasons-title, .choice-title {
   font-size: 40px;
   color: hsl(233, 26%, 24%);
   font-weight: 400;
@@ -115,6 +115,35 @@ header {
   color: hsl(233, 8%, 62%);
   margin: 20px 0 35px;
   line-height: 25px;
+}
+
+.choice-reasons {
+  background-color: hsl(0, 0%, 98%);
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.reasons-title {
+  font-size: 32px;
+}
+
+.choices-description, .choice-desc {
+  color: hsl(233, 8%, 62%);
+  line-height: 25px;
+  margin: 20px 0 25px;
+}
+
+.choices {
+  margin-top: 50px;
+}
+
+.choice-title {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.choice-desc {
+  font-size: 15px;
 }
 
 .desktop {
