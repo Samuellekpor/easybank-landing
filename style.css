@@ -23,7 +23,7 @@ header {
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
   border: none;
   color: white;
-  padding: 15px 35px;
+  padding: 12px 35px;
   font-size: 15px;
   cursor: pointer;
   border-radius: 25px;
@@ -193,6 +193,40 @@ header {
   color: hsl(233, 8%, 62%);
   font-size: 13px;
   line-height: 20px;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: hsl(233, 26%, 24%);
+  color: white;
+  text-align: center;
+}
+
+footer > .logo {
+  padding: 25px;
+  filter: brightness(0) invert(1);
+}
+
+.social-icon {
+  padding-left: 10px;
+  width: 35px;
+}
+
+.footer-nav {
+  list-style: none;
+  margin: 25px 0;
+}
+
+.footer-link {
+  padding: 10px;
+  color: hsl(0, 0%, 98%);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.signature {
+  margin: 25px;
+  color: hsl(233, 8%, 62%);
 }
 
 .desktop {
