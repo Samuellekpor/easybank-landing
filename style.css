@@ -233,6 +233,48 @@ footer > .logo {
   display: none;
 }
 
+@media(min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 180px;
+    align-items: center;
+  }
+
+  .logo {
+    height: 20px;
+  }
+
+  .navbar {
+    transform: translateY(0);
+    z-index: 0;
+    margin-right: auto;
+    padding-top: 0;
+    position: relative;
+    display: flex;
+  }
+
+  .navlink {
+    display: block;
+    margin: 5px 13px;
+    font-size: 14px;
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+    transition-delay: 0.2s;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
 
 
 
