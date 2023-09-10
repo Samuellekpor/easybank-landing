@@ -274,6 +274,56 @@ footer > .logo {
   .mobile-menu {
     display: none;
   }
+
+  .welcome-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 0 180px;
+  }
+
+  .welcome-desc {
+    text-align: start;
+    padding: 150px 100px 100px 0;
+    max-width: 550px;
+  }
+
+  .title {
+    font-size: 45px;
+  }
+
+  .landing-description {
+    padding-right: 50px;
+    margin-bottom: 25px;
+  }
+
+  .mockups {
+    margin-right: -180px;
+    order: 2;
+    z-index: 4;
+  }
+
+  .background-image {
+    position: absolute;
+    height: 128%;
+    top: -50px;
+    right: -50px;
+    z-index: 3;
+  }
+
+  .mockup-img {
+    top: -100px;
+    right: -250px;
+    padding: 0;
+    bottom: 150px;
+    height: 767px;
+    z-index: 3;
+  }
+
+  .choice-reasons {
+    position: relative;
+    z-index: 6;
+  }
 }
 
 
