@@ -319,7 +319,7 @@ footer > .logo {
     z-index: 5;
   }
 
-  .choice-reasons {
+  .choice-reasons, .latest-articles {
     position: relative;
     z-index: 1;
     text-align: start;
@@ -330,10 +330,15 @@ footer > .logo {
     width: 580px;
   }
 
-  .choices {
+  .choices, .articles {
     display: flex;
     gap: 25px;
   }
+
+  .articles-title {
+    text-align: start;
+  }
+
 }
 
 
