@@ -308,7 +308,6 @@ footer > .logo {
     height: 128%;
     top: -50px;
     right: -50px;
-    z-index: 3;
   }
 
   .mockup-img {
@@ -317,12 +316,23 @@ footer > .logo {
     padding: 0;
     bottom: 150px;
     height: 767px;
-    z-index: 3;
+    z-index: 5;
   }
 
   .choice-reasons {
     position: relative;
-    z-index: 6;
+    z-index: 1;
+    text-align: start;
+    padding: 70px 180px;
+  }
+
+  .choices-description {
+    width: 580px;
+  }
+
+  .choices {
+    display: flex;
+    gap: 25px;
   }
 }
 
