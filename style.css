@@ -202,9 +202,10 @@ footer {
   text-align: center;
 }
 
-footer > .logo {
+.icons > .logo {
   padding: 25px;
   filter: brightness(0) invert(1);
+  height: 70px;
 }
 
 .social-icon {
@@ -319,7 +320,7 @@ footer > .logo {
     z-index: 5;
   }
 
-  .choice-reasons, .latest-articles {
+  .choice-reasons, .latest-articles, footer {
     position: relative;
     z-index: 1;
     text-align: start;
@@ -337,6 +338,42 @@ footer > .logo {
 
   .articles-title {
     text-align: start;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 10px;
+    justify-items: start;
+    margin: 0;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icons > .logo {
+    padding: 0;
+    height: 25px;
+  }
+
+  .footer-link {
+    padding: 5px;
+  }
+
+  .right-foot {
+    text-align: end;
+  }
+
+  .signature {
+    margin: 35px 0 20px;
   }
 
 }
