@@ -27,7 +27,12 @@ header {
   font-size: 15px;
   cursor: pointer;
   border-radius: 25px;
-  transition: background 0.3s ease;
+  transition: background 1s ease-in;
+  transition-delay: 1s;
+}
+
+.request-invite:hover {
+  background: linear-gradient(to right, hsl(136, 55%, 64%), hsl(192, 62%, 63%));
 }
 
 .navlink {
@@ -75,7 +80,6 @@ header {
   overflow-y: hidden;
 }
 
-
 .show-menu {
   transform: translateY(0);
 }
@@ -92,25 +96,26 @@ header {
 }
 
 .mockups {
-  position: relative;
+  position: static;
   overflow: hidden;
+  padding-bottom: 30px;
 }
 
 .background-image {
   width: 100%;
-  height: 100%;
+  height: 350px;
   object-fit: cover;
 }
 
 .mockup-img {
   position: absolute;
-  top: -60px;
-  left: 0;
+  top: -70px;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 70%;
   padding: 0 20px;
   margin: 0 auto;
+  object-fit: cover;
 }
 
 .welcome-desc {
@@ -205,6 +210,11 @@ header {
   padding: 10px 0;
 }
 
+.article-title:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
+}
+
 .article-desc {
   color: hsl(233, 8%, 62%);
   font-size: 13px;
@@ -229,6 +239,11 @@ footer {
   width: 35px;
 }
 
+.social-icon:hover {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+  cursor: pointer;
+}
+
 .footer-nav {
   list-style: none;
   margin: 25px 0;
@@ -239,6 +254,11 @@ footer {
   color: hsl(0, 0%, 98%);
   font-weight: 400;
   font-size: 15px;
+}
+
+.footer-link:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
 }
 
 .signature {
@@ -262,7 +282,7 @@ footer {
   header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 180px;
+    padding: 5px 180px;
     align-items: center;
   }
 
@@ -278,30 +298,30 @@ footer {
     margin-top: auto;
     z-index: 0;
     margin-right: auto;
-    padding-top: 0;
+    padding-top: 25px;
     position: relative;
     display: flex;
   }
 
   .navlink {
     display: block;
-    margin: 5px 13px;
+    margin: 5px 13px 0 13px;
     font-size: 14px;
     text-decoration: none;
     color: hsl(233, 8%, 62%);
-    transition-delay: 0.2s;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
+    transition: background-color 1s ease;
   }
 
   .navlink:hover {
     color: black;
-    border: 10px solid;
+    border: 5px solid;
     border-image-slice: 1;
-    border-width: 5px;
     border-image-source: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    padding-bottom: 25px;
   }
 
   .mobile-menu {
@@ -337,19 +357,20 @@ footer {
   }
 
   .background-image {
-    position: absolute;
-    height: 128%;
-    top: -50px;
-    right: -50px;
+    position: unset;
+    height: 112%;
+    width: 110%;
+    bottom: 0;
   }
 
   .mockup-img {
-    top: -100px;
-    right: -250px;
+    top: -25px;
+    right: -32%;
     padding: 0;
-    bottom: 150px;
-    height: 767px;
+    height: 90%;
+    width: 100%;
     z-index: 5;
+    object-fit: contain;
   }
 
   .choice-reasons,
